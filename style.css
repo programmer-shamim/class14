@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div1{
+    text-align: center;
+
+}
+.div1 ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.div1 ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-weight: bold;
+    background-color: #48DBFB;
+    
+    padding: 10px;
+}
+.div1 ul li a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    
+}
+.div1 ul li a:hover{
+    color: #48DBFB ;
+}
+.div1 ul li a::before{
+    content: "";
+    
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: .4s;
+    
+
+}
+.div1 ul li a:hover::before{
+    border-bottom: 3px solid black;
+    width: 100%;
+    
+    color:#48DBFB ;
+}
+.div1 ul li:hover{
+    background-color: #fff;
+}
+
+.div2{
+    background-color: #48DBFB;
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+.div2 p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.div2 h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.div2 a{
+    text-decoration: none;
+}
+.div2 a i{
+    margin-right: 5px;
+}
+ .div2-button{
+    background-color: white;
+    padding: 10px;
+    color: #DEDEDE;
+    border-radius: 5px;
+    z-index: 1;
+    display: inline-block;
+    position: relative;
+    
+}
+.div2-button::before{
+    content: "";
+    width:0;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 1s all ease;
+    border-radius: 5px;
+}
+.div2-button:hover::before{
+    width: 100%;
+}
+.div3{
+    text-align: center;
+}
+.div31{
+    margin: 50px;
+}
+.div32{
+    padding: 50px;
+}
+ 
+/* .test{
+    width: 250px;
+    height: 200px ;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    overflow: hidden;
+}
+.test img{
+    width: 100%;
+    cursor: pointer;
+    transition: .4s ;
+}
+.test img:hover{
+    transform: rotate(360deg);
+}
+.test2{
+    width: 250px;
+    height: 200px ;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    overflow: hidden;
+} */
+.div32{
+    text-align: center;
+    
+}
+.div32 img{
+    width: 250px;
+    height: 200px ;
+   
+}
+
+.galary{
+    display: inline-block;
+   overflow: hidden;
+   margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+.galary-img1 img{
+    cursor: pointer;
+    transition: .4s;
+}
+.galary-img1 img:hover{
+    transform:rotate(360deg);
+}
+.galary-img2 img{
+    cursor: pointer;
+    transition: .4s;
+}
+.galary-img2 img:hover{
+    transform:rotate(30deg);
+}
+.galary-img3 img{
+    cursor: pointer;
+    transition: .4s;
+}
+.galary-img3 img:hover{
+    transform:rotate(-30deg);
+}
+.galary-img4 img{
+    cursor: pointer;
+    transition: .4s;
+}
+.galary-img4 img:hover{
+    transform:rotate(30deg);
+}
+.galary-img5 img{
+    cursor: pointer;
+    transition: .4s;
+}
+.galary-img5 img:hover{
+    transform:rotate(-30deg);
+}
+.galary-img6 img{
+    cursor: pointer;
+    transition: .4s;
+}
+.galary-img6 img:hover{
+    transform:rotate(360deg);
+}
+.galary-img7 img{
+    cursor: pointer;
+    transition: .4s;
+}
+.galary-img7 img:hover{
+    transform: scale(1.2,1.2);
+}
+.galary-img8 img{
+    cursor: pointer;
+    transition: .4s;
+}
+.galary-img8 img:hover{
+    transform: scale(1.2,1.2);
+}
+
+
+/* .img1 img{
+    
+    cursor: pointer;
+    transition: .4s ;
+}
+
+.img1 img:hover{
+    transform:rotate(360deg);
+    overflow: hidden;
+}
+.img2{
+    overflow: hidden;
+    transform:rotate(0);
+    transition: 1s all ease;
+}
+.img2 img:hover{
+    transform:rotate(30deg);
+    
+}
+.img3{
+    overflow: hidden;
+    transform:rotate(0);
+    transition: 1s all ease;
+}
+.img3 img:hover{
+    transform:rotate(-30deg);
+    
+}
+.img4{
+    overflow: hidden;
+    transform:rotate(0);
+    transition: 1s all ease;
+}
+.img4 img:hover{
+    transform:rotate(-30deg);
+    
+}
+.img5{
+    overflow: hidden;
+    transform:rotate(0);
+    transition: 1s all ease;
+}
+.img5 img:hover{
+    transform:rotate(30deg);
+    
+}
+.img6{
+    overflow: hidden;
+    transform:rotate(0);
+    transition: 1s all ease;
+}
+.test img:hover{
+    transform:rotate(360deg);
+    
+}
+.img7{
+    overflow: hidden;
+    transform:rotate(0);
+    transition: 1s all ease;
+}
+.img7 img:hover{
+    transform: scale(1.2,1.2);
+    
+}
+.img8{
+    overflow: hidden;
+    transform:rotate(0);
+    transition: 1s all ease;
+}
+.img8 img:hover{
+    transform: scale(1.2,1.2);
+    
+} */
+
+.div3 a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    
+}
+.div3 a:hover{
+    background-color: #48DBFB;
+}
+.div33{
+    padding: 20px;
+    margin: 50px;
+}
+.div33 p{
+    color: #877A78;
+}
+.step{
+    margin-top: 20px; 
+}
+.space1{
+    margin-right: 250px;
+    display: inline-block;
+    transform:rotate(-30deg);
+    transition: .5s all ease;
+}
+.space2{
+    margin-left: 250px;
+    display: inline-block;
+    transform:rotate(30deg);
+    transition: .5s all ease;
+}
+.space3{
+    transition: .5s all ease;
+    display: inline-block;
+}
+.space3:hover{
+    
+    transform: scale(1.5, 1.5);
+}
+.space1:hover{
+    
+    transform: scale(1, 1);
+}
+.space2:hover{
+    
+    transform: scale(1, 1);
+}
+.div4{
+    background-color: #2E2F31;
+    padding: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+
